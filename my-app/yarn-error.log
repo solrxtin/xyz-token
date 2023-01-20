@@ -1,0 +1,37 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.14.2/bin/node /root/.node/corepack/yarn/1.22.15/bin/yarn.js add --exact --cwd /mnt/c/Users/HP PC/xyz-token/my-app react react-dom next @next/font
+
+PATH: 
+  /tmp/yarn--1673944004761-0.7070434008948776:/usr/local/share/.config/yarn/global/node_modules/.bin:/usr/local/share/.config/yarn/link/node_modules/.bin:/root/.nvm/versions/node/v16.14.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/root/.nvm/versions/node/v16.14.2/lib/node_modules/npm/bin/node-gyp-bin:/root/.nvm/versions/node/v16.14.2/bin/node_modules/npm/bin/node-gyp-bin:/root/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/GTK3-Runtime Win64/bin:/mnt/c/Program Files/wkhtmltopdf/bin:/mnt/c/Users/HP PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP PC/AppData/Roaming/npm:/mnt/c/Users/HP PC/AppData/Local/GitHubDesktop/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/PostgreSQL/14/data:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.2/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/HP PC/.fly/bin:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
